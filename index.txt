@@ -17,13 +17,12 @@ Layout
 	use default
 		
 Buttons
-	*bunnyButton
+	*ECTSButton
 		name:Zdobadz ECTSa
-		desc:Click this little bunny to get more bunnies!
+		desc:Oddaj projekt dostań ECTSa
 		on click:anim icon wobble
-		on click:yield 1 bunny
-		on click:if (have goldenTouch and chance(1%)) yield 1 goldenCarrot
-		icon:stuff/bunny.png
+		on click:yield 1 ECTS
+		icon:https://blogerasmus.pl/wp-content/uploads/2019/05/pwr.png
 		no text
 		class:bigButton hasFlares
 		icon class:shadowed
@@ -31,9 +30,9 @@ Buttons
 		tooltip class:red
 		
 Resources
-	*bunny|bunnies
-		name:Bunny|Bunnies
-		desc:These are your bunnies. You can use them to purchase things. Your goal is to have as many bunnies as possible!
+	*ECTS|ECTSy
+		name:ECTS|ECTSy
+		desc:To są twoje ECTSy, złap je wszytkie!
 		icon:icons[0,0]
 		class:noBackground
 		show earned
