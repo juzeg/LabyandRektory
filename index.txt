@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Laby&Rektory
 	by:Juzeg
-	desc:Mem który zaszedł za daleko.<//>
+	desc:Mem który zaszedł za daleko.<//> Poczuj piekno piekno studiów
 	created:25/7/2017
 	updated:24/10/2017
 	version:1
