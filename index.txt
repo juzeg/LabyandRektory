@@ -83,3 +83,13 @@ Upgrades
 		cost:1000 ECTS
 		passive:multiply yield of Nocka by 2
 		req:(Nocka >= 10)
+
+Achievements
+	*TEMPLATE
+		on click:anim glow
+		
+	*bunnyAchiev1
+		name:Pierwszy oby nie ostatni.
+		desc:Zdobądź <b>1</b> ECTS.
+		req:1 ECTS
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/korona.png?raw=true
