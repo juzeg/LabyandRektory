@@ -71,6 +71,20 @@ Buildings
 		cost:15 ECTSy
 		on tick:yield 0.1 ECTS
 		unlocked
+
+Upgrades
+	*TEMPLATE
+		on click:anim glow
 	
+	//food upgrades
+	//inspiration : http://rabbit.org/suggested-vegetables-and-fruits-for-a-rabbit-diet/
+	
+	*Kawa
+		name:Kawa
+		desc:Mała czarna.<//><b>Skutek:</b><.>+0.2 ECTS/Nocka
+		icon:icons[1,1]
+		cost:100 ECTS
+		passive:increase bunny yield of Nocka by 0.2
+		req:10 ECTS:earned
 	
 		
