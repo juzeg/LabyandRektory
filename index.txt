@@ -73,16 +73,3 @@ Buildings
 		unlocked
 
 Upgrades
-	*TEMPLATE
-		on click:anim glow
-	
-	
-	
-	*buildingUpgrade1
-		name:Kawa
-		desc:Mała czarna.<//><b>Skutek:</b><.>+0.1 ECTS/Nocka
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
-		cost:1000 ECTS
-		passive:multiply yield of Nocki by 2
-		req:(Nocka>=10)
-		
