@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Laby&Rektory
 	by:Juzeg
-	desc:This is a simple idle game to showcase some of the basic functionalities of Idle Game Maker.<//>Make bunnies and shoot for the stars!
+	desc:Mem który zaszedł za daleko.<//>
 	created:25/7/2017
 	updated:24/10/2017
 	version:1
@@ -89,7 +89,7 @@ Achievements
 		on click:anim glow
 		
 	*bunnyAchiev1
-		name:Pierwszy oby nie ostatni.
+		name:Pierwszy ECTS, oby nie ostatni.
 		desc:Zdobądź <b>1</b> ECTS.
 		req:1 ECTS
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/korona.png?raw=true
