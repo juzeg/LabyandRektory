@@ -105,7 +105,7 @@ Buildings
 	*Laby
 		name:Laby
 		desc:Jak patrze to umiem jak nie patrze to nie umiem.<//><b>Effect:</b><.>Produkuje 10 ECTS co 10s.
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/laby.jpg?raw=true
 		cost:2000 ECTSy
 		on tick:yield 1 ECTS
 		req:(Sprawka >= 2 )
@@ -113,7 +113,7 @@ Buildings
 	*Pytania
 		name:Pytania z zeszłego roku
 		desc:Nasi przodkowie patrzą na nas z dumą.<//><b>Effect:</b><.>Produkuje 50 ECTS co 10s.
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/pytania.jpg?raw=true
 		cost:10000 ECTSy
 		on tick:yield 5 ECTS
 		req:(Laby >= 1 )
@@ -121,7 +121,7 @@ Buildings
 	*Egzamin
 		name:Egzamin zdalny
 		desc:Praca samodzielna.<//><b>Effect:</b><.>Produkuje 300 ECTS co 10s.
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/egzamin.png?raw=true
 		cost:20000 ECTSy
 		on tick:yield 30 ECTS
 		req:(Pytania >= 1 )
@@ -129,7 +129,7 @@ Buildings
 	*Kurs
 		name:Kurs awansem 
 		desc:Szybsi od szybkości.<//><b>Effect:</b><.>Produkuje 1000 ECTS co 10s.
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/kurs.png?raw=true
 		cost:100000 ECTSy
 		on tick:yield 100 ECTS
 		req:(Egzamin >= 1 )
@@ -137,7 +137,7 @@ Buildings
 	*Dziekanka
 		name:Dziekanka
 		desc:This Little Maneuver's Gonna Cost Us 51 Years.<//><b>Effect:</b><.>Produkuje 5000 ECTS co 10s.
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/dziekanka.png?raw=true
 		cost:1000000 ECTSy
 		on tick:yield 500 ECTS
 		req:(Kurs >= 1 )
@@ -160,7 +160,7 @@ Upgrades
 	*Testownik
 		name:Testownik
 		desc:Jak to: "był z błędami" ?!<//><b>Effect:</b><.>Klikanie daje 4 ECTS więcej<.>
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/testownik.png?raw=true
 		cost:5000 ECTS
 		passive:increase yield of ECTSButton by 4
 		req:(Pytania >= 1)
