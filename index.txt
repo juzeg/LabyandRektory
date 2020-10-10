@@ -10,7 +10,7 @@ Settings
 	background:https://ki.pwr.edu.pl/images/Galeria/p2.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, stuff/ECTSIcons.png
+	spritesheet:icons, 48 by 48, stuff/bunnyicons.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
