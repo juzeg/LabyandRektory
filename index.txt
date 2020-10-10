@@ -76,7 +76,7 @@ Upgrades
 	*TEMPLATE
 		on click:anim glow
 	
-	Kawa
+	*Kawa
 		name:Kawa
 		desc:Mała czarna<//><b>Effect:</b><.>Nocki wydajnosć wzrasta x2<.>
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
