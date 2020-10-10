@@ -10,7 +10,7 @@ Settings
 	background:https://ki.pwr.edu.pl/images/Galeria/p2.jpg
 	building cost increase:115%
 	building cost refund:50%
-	spritesheet:icons, 48 by 48, stuff/bunnyicons.png
+	spritesheet:icons, 48 by 48, stuff/bunnyIcons.png
 	stylesheet:stuff/bigBlue.css
 
 Layout
@@ -33,7 +33,7 @@ Resources
 	*ECTS|ECTSy
 		name:ECTS|ECTSy
 		desc:To są twoje ECTSy, złap je wszytkie!
-		icon:icons[0,0]
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
 		class:noBackground
 		show earned
 		
@@ -46,9 +46,9 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 		
-	*cage|cages
-		name:Rabbit cage|Rabbit cages
-		desc:A tiny little cage.<//><b>Effect:</b><.>Produces 1 rabbit every 10 seconds.
+	*Nocka|Nocki
+		name:Nocka|Nocki
+		desc:Jedna zarawana nocka to jeszcze nic strasznego<//><b>Effect:</b><.>Produkuje 1 ECTS co 10s.
 		icon:icons[3,0]
 		cost:15 bunnies
 		on tick:yield 0.1 ECTS
