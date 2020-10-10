@@ -6,6 +6,18 @@ Let's make a game!
 	updated:24/10/2017
 	version:1
 
+//dziekanka
+//Laby
+//testownik
+//pytania z zeszłego roku
+//egzamin zdalny
+//kurs awnasem
+//erasmus
+//nagrane wykłady
+
+
+
+
 Settings
 	background:https://ki.pwr.edu.pl/images/Galeria/p2.jpg
 	building cost increase:115%
@@ -58,12 +70,41 @@ Shinies
 				
 			end
 		end
-	
+
+
+//dziekanka
+//testownik
+//pytania z zeszłego roku
+//egzamin zdalny
+//kurs awnasem
+//erasmus
+//nagrane wykłady
+
+
 
 Buildings
 	*TEMPLATE
 		on click:anim glow
-		
+
+	*Laby
+		name:Laby
+		desc:Jak patrze to umiem jak nie patrze to nie umiem.<//><b>Effect:</b><.>Produkuje 10 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		cost:2000 ECTSy
+		on tick:yield 1 ECTS
+		req:(Sprawka >= 10 )
+
+	*Pytania
+		name:Pytania z zeszłego roku
+		desc:Nasi przodkowie patrzą na nas z dumą.<//><b>Effect:</b><.>Produkuje 50 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		cost:10000 ECTSy
+		on tick:yield 5 ECTS
+		req:(Laby >= 1 )
+
+	
+
+
 	*Nocka|Nocki
 		name:Nocka|Nocki
 		desc:Jedna zarawana nocka to jeszcze nic strasznego.<//><b>Effect:</b><.>Produkuje 1 ECTS co 10s.
@@ -76,7 +117,7 @@ Buildings
 		name:Sprawko|Sprawka
 		desc:Wnioski: co ja tu robie?<//><b>Effect:</b><.>Produkuje 3 ECTS co 10s.
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/sprawko.png?raw=true
-		cost:15 ECTSy
+		cost:300 ECTSy
 		on tick:yield 0.3 ECTS
 		req:(Nocka >= 5 )
 		
