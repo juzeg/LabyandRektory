@@ -86,25 +86,6 @@ Buildings
 	*TEMPLATE
 		on click:anim glow
 
-	*Laby
-		name:Laby
-		desc:Jak patrze to umiem jak nie patrze to nie umiem.<//><b>Effect:</b><.>Produkuje 10 ECTS co 10s.
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
-		cost:2000 ECTSy
-		on tick:yield 1 ECTS
-		req:(Sprawka >= 2 )
-
-	*Pytania
-		name:Pytania z zeszłego roku
-		desc:Nasi przodkowie patrzą na nas z dumą.<//><b>Effect:</b><.>Produkuje 50 ECTS co 10s.
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
-		cost:10000 ECTSy
-		on tick:yield 5 ECTS
-		req:(Laby >= 1 )
-
-	
-
-
 	*Nocka|Nocki
 		name:Nocka|Nocki
 		desc:Jedna zarawana nocka to jeszcze nic strasznego.<//><b>Effect:</b><.>Produkuje 1 ECTS co 10s.
@@ -121,6 +102,47 @@ Buildings
 		on tick:yield 0.3 ECTS
 		req:(Nocka >= 5 )
 		
+	*Laby
+		name:Laby
+		desc:Jak patrze to umiem jak nie patrze to nie umiem.<//><b>Effect:</b><.>Produkuje 10 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		cost:2000 ECTSy
+		on tick:yield 1 ECTS
+		req:(Sprawka >= 2 )
+
+	*Pytania
+		name:Pytania z zeszłego roku
+		desc:Nasi przodkowie patrzą na nas z dumą.<//><b>Effect:</b><.>Produkuje 50 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		cost:10000 ECTSy
+		on tick:yield 5 ECTS
+		req:(Laby >= 1 )
+
+	*Egzamin
+		name:Egzamin zdalny
+		desc:Praca samodzielna.<//><b>Effect:</b><.>Produkuje 300 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		cost:20000 ECTSy
+		on tick:yield 30 ECTS
+		req:(Pytania >= 1 )
+
+	*Kurs
+		name:Kurs awansem 
+		desc:Szybsi od szybkości.<//><b>Effect:</b><.>Produkuje 1000 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		cost:100000 ECTSy
+		on tick:yield 100 ECTS
+		req:(Egzamin >= 1 )
+
+	*Dziekanka
+		name:Dziekanka
+		desc:This Little Maneuver's Gonna Cost Us 51 Years.<//><b>Effect:</b><.>Produkuje 5000 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		cost:1000000 ECTSy
+		on tick:yield 500 ECTS
+		req:(Kurs >= 1 )
+
+	
 
 
 Upgrades
@@ -134,6 +156,17 @@ Upgrades
 		cost:1000 ECTS
 		passive:multiply yield of Nocka by 2
 		req:(Nocka >= 10)
+
+	*Testownik
+		name:Testownik
+		desc:Jak to: "był z błędami" ?!<//><b>Effect:</b><.>Klikanie daje 4 ECTS więcej<.>
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
+		cost:5000 ECTS
+		passive:increase yield of ECTSButton by 4
+		req:(Pytania >= 10)
+
+	
+
 
 Achievements
 	*TEMPLATE
