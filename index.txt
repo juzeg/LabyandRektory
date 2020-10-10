@@ -49,7 +49,7 @@ Shinies
 		class:bigButton
 		on click:
 			$boost=1
-			if (chance(25%))
+			if (chance(100%))
 				//get at least 7, or between 1 and 3 minutes of our bunny production
 				$amount=max(7,random(ECTSy:ps*60*1,ECTSy:ps*60*3))*$boost
 				toast Będzie przepis! zyskujesz<//><b>[$amount] ECTSy!</b>.
