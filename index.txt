@@ -83,6 +83,6 @@ Upgrades
 		desc:Mała czarna.<//><b>Skutek:</b><.>+0.1 ECTS/Nocka
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
 		cost:1000 ECTS
-		passive:multiply yield of nocka by 2
+		passive:multiply yield of Nocka by 2
 		req:(Nocka>=10)
 		
