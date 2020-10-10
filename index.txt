@@ -33,7 +33,7 @@ Resources
 	*ECTS|ECTSy
 		name:ECTS|ECTSy
 		desc:To są twoje ECTSy, złap je wszytkie!
-		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/ects.png?raw=true
 		class:noBackground
 		show earned
 		
@@ -49,7 +49,7 @@ Buildings
 	*Nocka|Nocki
 		name:Nocka|Nocki
 		desc:Jedna zarawana nocka to jeszcze nic strasznego<//><b>Effect:</b><.>Produkuje 1 ECTS co 10s.
-		icon:icons[3,0]
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
 		cost:15 bunnies
 		on tick:yield 0.1 ECTS
 		unlocked
