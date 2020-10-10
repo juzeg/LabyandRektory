@@ -69,7 +69,7 @@ Upgrades
 		icon:icons[1,1]
 		cost:100 bunnies
 		passive:increase ECTS yield of ECTSButton by 1
-		req:10 bunnies:earned
+		req:10 ECTSy:earned
 		
 	
 	//building upgrades
@@ -78,7 +78,7 @@ Upgrades
 		name:Sippy bottles
 		desc:Your bunnies can drink their fill!<//><b>Effect:</b><.>rabbit cage production x2<.>rabbit hutch production x2<.>rabbit coop production x2
 		icon:icons[2,0] icons[3,0]
-		cost:1000 bunnies
+		cost:1000 ECTSy
 		passive:multiply yield of cage by 2
 		passive:multiply yield of hutch by 2
 		passive:multiply yield of coop by 2
