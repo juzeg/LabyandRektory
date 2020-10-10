@@ -73,3 +73,10 @@ Buildings
 		unlocked
 
 Upgrades
+*Kawa
+		name:Kawa
+		desc:Mała czarna<//><b>Effect:</b><.>Nocki wydajnosć wzrasta x2<.>
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
+		cost:1000 bunnies
+		passive:multiply yield of nocka by 2
+		req:(nocka >= 10)
