@@ -1,7 +1,7 @@
 Let's make a game!
 	name:Laby&Rektory
 	by:Juzeg
-	desc:Mem który zaszedł za daleko.<//> Poczuj piekno piekno studiów
+	desc:Mem który zaszedł za daleko.<//> Poczuj piekno studiów
 	created:25/7/2017
 	updated:24/10/2017
 	version:1
@@ -71,6 +71,16 @@ Buildings
 		cost:15 ECTSy
 		on tick:yield 0.1 ECTS
 		unlocked
+
+	*Sprawko|Sprawka
+		name:Sprawko|Sprawka
+		desc:Wnioski: co ja tu robie?<//><b>Effect:</b><.>Produkuje 3 ECTS co 10s.
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/sprawko.png?raw=true
+		cost:15 ECTSy
+		on tick:yield 0.3 ECTS
+		req:(Nocka >= 5 )
+		
+
 
 Upgrades
 	*TEMPLATE
