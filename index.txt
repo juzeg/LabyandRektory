@@ -78,12 +78,11 @@ Upgrades
 	
 	
 	
-	*Kawa
+	*buildingUpgrade1
 		name:Kawa
-		desc:Mała czarna.<//><b>Skutek:</b><.>+0.2 ECTS/Nocka
+		desc:Mała czarna.<//><b>Skutek:</b><.>+0.1 ECTS/Nocka
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
-		cost:100 ECTS
-		passive:increase ECTS yield of Nocka by 0.2
-		req:10 ECTS:earned
-	
+		cost:1000 ECTS
+		passive:multiply yield of nocka by 2
+		req:(Nocka>=10)
 		
