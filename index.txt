@@ -40,6 +40,24 @@ Resources
 	
 		
 Shinies
+	*przepis
+		on click:log Woop
+		movement:onRight moveLeft fade bounce:0.05
+		frequency:60
+		frequency variation:30
+		icon:https://github.com/juzeg/LabyandRektory/blob/main/przepis.png?raw=true
+		class:bigButton
+		on click:
+			$boost=1
+			if (chance(25%))
+				//get at least 7, or between 1 and 3 minutes of our bunny production
+				$amount=max(7,random(ECTSy:ps*60*1,ECTSy:ps*60*3))*$boost
+				toast Będzie przepis! zyskujesz<//><b>[$amount] ECTSy!</b>.
+				yield $amount ECTSy
+			else
+				
+			end
+		end
 	
 
 Buildings
@@ -48,9 +66,9 @@ Buildings
 		
 	*Nocka|Nocki
 		name:Nocka|Nocki
-		desc:Jedna zarawana nocka to jeszcze nic strasznego<//><b>Effect:</b><.>Produkuje 1 ECTS co 10s.
+		desc:Jedna zarawana nocka to jeszcze nic strasznego.<//><b>Effect:</b><.>Produkuje 1 ECTS co 10s.
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/nocka.png?raw=true
-		cost:15 bunnies
+		cost:15 ECTSy
 		on tick:yield 0.1 ECTS
 		unlocked
 	
