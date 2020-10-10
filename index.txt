@@ -99,7 +99,7 @@ Buildings
 		desc:Wnioski: co ja tu robie?<//><b>Effect:</b><.>Produkuje 3 ECTS co 10s.
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/sprawko.png?raw=true
 		cost:300 ECTSy
-		on tick:yield 0.3 ECTS
+		on tick:yield 0.5 ECTS
 		req:(Nocka >= 5 )
 		
 	*Laby
@@ -163,7 +163,7 @@ Upgrades
 		icon:https://github.com/juzeg/LabyandRektory/blob/main/kawa.jpg?raw=true
 		cost:5000 ECTS
 		passive:increase yield of ECTSButton by 4
-		req:(Pytania >= 10)
+		req:(Pytania >= 1)
 
 	
 
