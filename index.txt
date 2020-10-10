@@ -18,11 +18,7 @@ Layout
 		
 Buttons
 	*bunnyButton
-<<<<<<< HEAD
 		name:Zdobądź ECTSa
-=======
-		name:Make a bunny
->>>>>>> 573dd81a512cf371526a942f61e4b527aa904e83
 		desc:Click this little bunny to get more bunnies!
 		on click:anim icon wobble
 		on click:yield 1 bunny
